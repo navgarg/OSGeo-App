@@ -5,6 +5,9 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.content.Intent
 import android.view.WindowManager
+import android.view.animation.AnimationUtils
+import kotlinx.android.synthetic.main.activity_splash.*
+
 
 class SplashActivity : AppCompatActivity() {
 
@@ -13,6 +16,9 @@ class SplashActivity : AppCompatActivity() {
         //making this activity full screen to hide action bar
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.activity_splash)
+
+        val myanim = AnimationUtils.loadAnimation(this, R.anim.splash_animation)
+        logo.startAnimation(myanim)
 
 
         //sending intent after 3 seconds using CountDownTimer

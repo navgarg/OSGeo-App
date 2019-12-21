@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">OSGeo-App</string>
+    <string name="geoserver">A web server that allows you to serve maps and data from a variety of formats to standard clients</string>
+    <string name="geonode">A web-based application and platform for developing GISs and for deploying SDIs</string>
+    <string name="gdal">A C++ translator library for more than 200 raster and vector geospatial data formats</string>
+    <string name="geo_moose">A Web Client JavaScript Framework for displaying distributed cartographic data</string>
+    <string name="deegree">An open source software for spatial data infrastructures and the geospatial web</string>
+    <string name="geo_network">A catalog application to manage spatially referenced resources</string>
 </resources>
