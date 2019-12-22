@@ -4,16 +4,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/osgeo_logo"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:textColor="@color/backLight"
+        android:textColor="@color/background"
         android:textSize="6mm"/>
 
     <TextView
@@ -21,8 +26,8 @@
         android:paddingBottom="50dp"
         android:layout_height="wrap_content"
         android:text="Through OSGeoTrac"
-        android:textColor="@color/backLight"
-        android:textSize="12sp"/>
+        android:textColor="@color/background"
+        android:textSize="14sp"/>
 
     <EditText
         android:id="@+id/username"
@@ -31,7 +36,7 @@
         android:ems="10"
         android:hint="Username"
         android:textColor="@color/backLight"
-        android:textColorHint="@color/backLight"
+        android:textColorHint="@color/background"
         android:textAlignment="center" />
 
     <EditText
@@ -41,7 +46,7 @@
         android:ems="10"
         android:hint="Password"
         android:textColor="@color/backLight"
-        android:textColorHint="@color/backLight"
+        android:textColorHint="@color/background"
         android:textAlignment="center"
         android:inputType="textPassword" />
 

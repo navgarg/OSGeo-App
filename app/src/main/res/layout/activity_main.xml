@@ -17,19 +17,6 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-
-
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/backLight"
-            android:text="GitHub Projects"
-            android:layout_marginBottom="15dp"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:textAlignment="center" />
-
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -170,16 +157,6 @@
                     android:textAlignment="center" />
             </LinearLayout>
         </RelativeLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/backLight"
-            android:text="Trac Projects"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"
-            android:textSize="30sp"
-            android:textAlignment="center" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
