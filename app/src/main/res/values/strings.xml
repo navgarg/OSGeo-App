@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">OSGeo-App</string>
-    <string name="geoserver">A web server that allows you to serve maps and data from a variety of formats to standard clients</string>
-    <string name="geonode">A web-based application and platform for developing GISs and for deploying SDIs</string>
     <string name="gdal">A C++ translator library for more than 200 raster and vector geospatial data formats</string>
-    <string name="geo_moose">A Web Client JavaScript Framework for displaying distributed cartographic data</string>
     <string name="deegree">An open source software for spatial data infrastructures and the geospatial web</string>
-    <string name="geo_network">A catalog application to manage spatially referenced resources</string>
+    <string name="geo_tools">An open source library providing a compliant approach for visualization and processing of geospatial data and web services</string>
+    <string name="grass">A free and open source Geographic Information System (GIS) software suite</string>
+    <string name="pgrouting">pgRouting extends the PostGIS / PostgreSQL geospatial database providing routing functionality.</string>
+    <string name="qgis">The leading Free and Open Source Desktop Geospatial Information System</string>
+    <string name="istsos">An OGC Sensor Observation Service server implementation written in Python</string>
+    <string name="open_layers">OpenLayers makes it easy to put a dynamic map in any web page.</string>
+    <string name="osgeolive">A self-contained bootable DVD, USB thumb drive or Virtual Machine based on Lubuntu</string>
+
+
 </resources>

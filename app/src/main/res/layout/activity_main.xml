@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -12,65 +13,22 @@
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
         android:orientation="vertical"
-        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <RelativeLayout
+
+
+        <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/geoserver"
-                    android:layout_width="185dp"
-                    android:layout_marginEnd="5dp"
-                    android:layout_weight="2"
-                    android:layout_height="103dp"
-                    android:src="@drawable/geo_server" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_marginEnd="5dp"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:layout_weight="1"
-                    android:text="@string/geoserver"
-                    android:textAlignment="center" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/geonode"
-                    android:layout_width="185dp"
-                    android:layout_height="103dp"
-                    android:layout_weight="1"
-                    android:layout_marginStart="5dp"
-                    android:src="@drawable/geo_node" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:layout_marginStart="5dp"
-                    android:layout_weight="1"
-                    android:text="@string/geonode"
-                    android:textAlignment="center" />
-            </LinearLayout>
-        </RelativeLayout>
-
-
+            android:textColor="@color/backLight"
+            android:text="GitHub Projects"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textAlignment="center" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -85,76 +43,16 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/gdal"
+                    android:id="@+id/osgeolive"
                     android:layout_width="185dp"
                     android:layout_height="103dp"
-                    android:layout_weight="1"
-                    android:layout_marginEnd="5dp"
-                    android:src="@drawable/gdal" />
+                    android:src="@drawable/osgeolive" />
 
                 <TextView
                     android:layout_width="185dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginEnd="5dp"
                     android:textColor="@color/white"
-                    android:text="@string/gdal"
-                    android:textAlignment="center" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/geomoose"
-                    android:layout_width="185dp"
-                    android:layout_weight="1"
-                    android:layout_height="103dp"
-                    android:layout_marginStart="5dp"
-                    android:src="@drawable/geo_moose" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:text="@string/geo_moose"
-                    android:layout_marginStart="5dp"
-                    android:textAlignment="center" />
-            </LinearLayout>
-        </RelativeLayout>
-
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/geo_network"
-                    android:layout_marginEnd="5dp"
-                    android:layout_weight="1"
-                    android:layout_width="185dp"
-                    android:layout_height="103dp"
-                    android:src="@drawable/geo_network" />
-
-                <TextView
-                    android:layout_width="185dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="5dp"
-                    android:textColor="@color/white"
-                    android:layout_weight="1"
-                    android:text="@string/geo_network"
+                    android:text="@string/osgeolive"
                     android:textAlignment="center" />
             </LinearLayout>
 
@@ -168,23 +66,194 @@
                     android:id="@+id/deegree"
                     android:layout_width="185dp"
                     android:layout_height="103dp"
-                    android:layout_weight="2"
-                    android:layout_marginStart="5dp"
                     android:src="@drawable/deegree" />
 
                 <TextView
                     android:layout_width="185dp"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
-                    android:layout_marginStart="5dp"
                     android:text="@string/deegree"
-                    android:layout_weight="1"
                     android:textAlignment="center" />
             </LinearLayout>
         </RelativeLayout>
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/open_layers"
+                    android:layout_width="185dp"
+                    android:layout_height="103dp"
+                    android:src="@drawable/open_layers" />
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/open_layers"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/qgis"
+                    android:layout_width="185dp"
+                    android:layout_height="103dp"
+                    android:src="@drawable/qgis" />
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/qgis"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/istsos"
+                    android:layout_width="185dp"
+                    android:layout_height="103dp"
+                    android:src="@drawable/istsos" />
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/istsos"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/pgRouting"
+                    android:layout_width="185dp"
+                    android:layout_height="103dp"
+                    android:src="@drawable/pgrouting" />
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/pgrouting"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/backLight"
+            android:text="Trac Projects"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:textSize="30sp"
+            android:textAlignment="center" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/gdal"
+                    android:layout_width="185dp"
+                    android:layout_height="103dp"
+                    android:src="@drawable/gdal" />
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/gdal"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/geo_tools"
+                    android:layout_width="185dp"
+                    android:layout_height="103dp"
+                    android:src="@drawable/geo_tools" />
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/geo_tools"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/grass"
+                    android:layout_width="185dp"
+                    android:layout_height="103dp"
+                    android:src="@drawable/grass" />
+
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/grass"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
 
 </ScrollView>
-
 

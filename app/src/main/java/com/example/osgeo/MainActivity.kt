@@ -5,6 +5,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import android.content.Intent
 import android.net.Uri
+import kotlinx.android.synthetic.main.github_login.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,24 +19,33 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        geoserver.setOnClickListener {
-            sendIntent("https://www.osgeo.org/projects/geoserver/")
-        }
-        geonode.setOnClickListener {
-            sendIntent("https://www.osgeo.org/projects/geonode/")
-        }
-        geo_network.setOnClickListener {
-            sendIntent("https://www.osgeo.org/projects/geonetwork/")
-        }
-        geomoose.setOnClickListener {
-            sendIntent("https://www.osgeo.org/projects/geomoose/")
-        }
-        gdal.setOnClickListener {
-            sendIntent("https://www.osgeo.org/projects/gdal/")
+        osgeolive.setOnClickListener {
+            startActivity(Intent(this, LoginGithub::class.java))
         }
         deegree.setOnClickListener {
-            sendIntent("https://www.osgeo.org/projects/deegree/")
+            startActivity(Intent(this, LoginGithub::class.java))
         }
+        open_layers.setOnClickListener {
+            startActivity(Intent(this, LoginGithub::class.java))
+        }
+        grass.setOnClickListener {
+            startActivity(Intent(this, LoginTrac::class.java))
+        }
+        qgis.setOnClickListener {
+            startActivity(Intent(this, LoginGithub::class.java))
+        }
+        istsos.setOnClickListener {
+            startActivity(Intent(this, LoginGithub::class.java))
+        }
+        pgRouting.setOnClickListener {
+            startActivity(Intent(this, LoginGithub::class.java))
+        }
+        gdal.setOnClickListener {
+            startActivity(Intent(this, LoginTrac::class.java))        }
+        geo_tools.setOnClickListener {
+            startActivity(Intent(this, LoginTrac::class.java))
+        }
+
 
     }
 
