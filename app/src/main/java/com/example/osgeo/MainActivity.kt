@@ -5,7 +5,6 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import android.content.Intent
 import android.net.Uri
-import kotlinx.android.synthetic.main.github_login.*
 
 class MainActivity : AppCompatActivity() {
 

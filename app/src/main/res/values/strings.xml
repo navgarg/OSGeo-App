@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">OSGeo-App</string>
-    <string name="gdal">A C++ translator library for more than 200 raster and vector geospatial data formats</string>
-    <string name="deegree">An open source software for spatial data infrastructures and the geospatial web</string>
-    <string name="geo_tools">A library providing visualization and processing of geospatial data and web services</string>
-    <string name="grass">A free and open source complete Geographic Information System (GIS) software suite</string>
+    <string name="gdal">A C++ translator library for more than 200 raster and vector geospatial data formats.</string>
+    <string name="deegree">An open source software for spatial data infrastructures and the geospatial web.</string>
+    <string name="geo_tools">A library providing visualization and processing of geospatial data and web services.</string>
+    <string name="grass">A free and open source complete Geographic Information System (GIS) software suite.</string>
     <string name="pgrouting">Extends the PostGIS/PostgreSQL geospatial database providing routing functionality.</string>
     <string name="qgis">The leading Free and Open Source Geospatial Information System (GIS) for desktops.</string>
-    <string name="istsos">An OSGeo incubated OGC Sensor Observation Service server implemented in Python</string>
+    <string name="istsos">An OSGeo incubated OGC Sensor Observation Service server implemented in Python.</string>
     <string name="open_layers">OpenLayers implementation makes it easy to put a dynamic map in any web page.</string>
-    <string name="osgeolive">A self-contained bootable DVD, USB thumb drive or Virtual Machine based on Lubuntu</string>
+    <string name="osgeolive">A self-contained bootable DVD, USB thumb drive or Virtual Machine based on Lubuntu.</string>
 
 
 </resources>

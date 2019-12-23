@@ -12,9 +12,10 @@
         android:layout_width="match_parent"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
+        android:layout_margin="3dp"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
         <TextView
@@ -23,23 +24,30 @@
             android:text="OSGeo Projects"
             android:textSize="35sp"
             android:layout_marginBottom="20dp"
-            android:textColor="@color/background"/>
+            android:textColor="@color/backLight"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:orientation="horizontal">
 
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:id="@+id/material_icon_button"-->
+<!--                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/icon_button_label_enabled"-->
+<!--                app:icon="@drawable/"/>-->
 
             <Button
                 android:id="@+id/gdal"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:background="@color/white"
-                android:drawableTop="@drawable/gdal1"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/gdal"
                 android:text="@string/gdal"
                 android:textAllCaps="false"
-                android:layout_marginBottom="25dp"
+                android:layout_marginBottom="10dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginEnd="15dp"
                 android:textColor="@color/backLight"/>
@@ -47,10 +55,10 @@
             <Button
                 android:id="@+id/deegree"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:layout_marginBottom="25dp"
-                android:background="@color/white"
-                android:drawableTop="@drawable/deegree1"
+                android:layout_height="210dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/deegree"
                 android:text="@string/osgeolive"
                 android:layout_marginStart="15dp"
                 android:layout_alignParentEnd="true"
@@ -70,12 +78,12 @@
             <Button
                 android:id="@+id/geo_tools"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:background="@color/white"
-                android:drawableTop="@drawable/geo_tools1"
+                android:layout_height="210dp"
+                android:drawableTop="@drawable/geo_tools"
+                android:background="@drawable/button_style"
                 android:text="@string/geo_tools"
                 android:textAllCaps="false"
-                android:layout_marginBottom="25dp"
+                android:layout_marginBottom="10dp"
                 android:layout_alignParentStart="true"
                 android:layout_marginEnd="15dp"
                 android:textColor="@color/backLight"/>
@@ -83,15 +91,15 @@
             <Button
                 android:id="@+id/qgis"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:background="@color/white"
-                android:layout_marginBottom="25dp"
-                android:drawableTop="@drawable/qgis1"
-                android:text="@string/qgis"
-                android:layout_marginStart="15dp"
+                android:layout_height="210dp"
                 android:layout_alignParentEnd="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/qgis"
+                android:text="@string/qgis"
                 android:textAllCaps="false"
-                android:textColor="@color/backLight"/>
+                android:textColor="@color/backLight" />
 
 
         </RelativeLayout>
@@ -107,10 +115,10 @@
             <Button
                 android:id="@+id/grass"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:background="@color/white"
-                android:layout_marginBottom="25dp"
-                android:drawableTop="@drawable/grass1"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="10dp"
+                android:drawableTop="@drawable/grass"
                 android:text="@string/grass"
                 android:textAllCaps="false"
                 android:layout_alignParentTop="true"
@@ -120,12 +128,12 @@
             <Button
                 android:id="@+id/istsos"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:background="@color/white"
-                android:drawableTop="@drawable/istsos1"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/istsos"
                 android:text="@string/istsos"
                 android:layout_marginStart="15dp"
-                android:layout_marginBottom="25dp"
+                android:layout_marginBottom="10dp"
                 android:layout_alignParentEnd="true"
                 android:textAllCaps="false"
                 android:textColor="@color/backLight"/>
@@ -143,10 +151,10 @@
             <Button
                 android:id="@+id/open_layers"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:background="@color/white"
-                android:layout_marginBottom="25dp"
-                android:drawableTop="@drawable/open_layers1"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="10dp"
+                android:drawableTop="@drawable/open_layers"
                 android:text="@string/open_layers"
                 android:textAllCaps="false"
                 android:layout_alignParentStart="true"
@@ -156,10 +164,10 @@
             <Button
                 android:id="@+id/osgeolive"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:layout_marginBottom="25dp"
-                android:background="@color/white"
-                android:drawableTop="@drawable/osgeolive1"
+                android:layout_height="210dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/osgeolive"
                 android:text="@string/osgeolive"
                 android:layout_marginStart="15dp"
                 android:layout_alignParentEnd="true"
@@ -179,13 +187,13 @@
             <Button
                 android:id="@+id/pgRouting"
                 android:layout_width="185dp"
-                android:layout_height="180dp"
-                android:background="@color/white"
-                android:drawableTop="@drawable/pgrouting1"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/pgrouting"
                 android:text="@string/pgrouting"
                 android:textAllCaps="false"
                 android:layout_alignParentStart="true"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:textColor="@color/backLight"/>
 
         </RelativeLayout>
