@@ -18,9 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".ProjectsActivity" />
         <activity android:name=".LoginTrac" />
         <activity android:name=".LoginGithub" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".AboutOSGeo"/>
+        <activity android:name=".Initiatives"/>
+        <activity android:name=".Community"/>
     </application>
 
 </manifest>

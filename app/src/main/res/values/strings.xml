@@ -9,6 +9,32 @@
     <string name="istsos">An OSGeo incubated OGC Sensor Observation Service server implemented in Python.</string>
     <string name="open_layers">OpenLayers implementation makes it easy to put a dynamic map in any web page.</string>
     <string name="osgeolive">A self-contained bootable DVD, USB thumb drive or Virtual Machine based on Lubuntu.</string>
-
+    <string name="about_osgeo">The Open Source Geospatial Foundation (OSGeo) is a non-profit organisation. </string>
+    <string name="open_source">Open source offers greater control than you may be familiar with from closed software</string>
+    <string name="board">The OSGeo charter members elect a 9-member board of Directors who work together.</string>
+    <string name="charter_members">OSGeo charter members elect the Board of Directors and new charter members.</string>
+    <string name="committees">OSGeo Committees are a part of the official structure of OSGeo.</string>
+    <string name="sponsors">OSGeo relies on the donations from generous sponsors to fund day-to-day activities.</string>
+    <string name="partners">OSGeo works with organizations world wide, promoting open source geospatial.</string>
+    <string name="branding_material">OSGeo branding guide provides a consistent visual identity for the foundation.</string>
+    <string name="contact">There are various ways to get in touch with the OSGeo community</string>
+    <string name="faq">Check out the frequently asked questions, or send a message to info@osgeo.org to ask a new one.</string>
+    <string name="geo_for_all">Making Geospatial education and oppotunities accessible to all</string>
+    <string name="foss4g">The Free and Open Source Software for Geospatial is an annual global conference.</string>
+    <string name="foss4g_travel_grants">OSGeo provides a travel grant program for the FOSS4G events.</string>
+    <string name="open_geoscience">A paradigm to make data transparent and accessible for science and society.</string>
+    <string name="un_initiatives">This group was formed to support the UN migration to Open Source Geospatial software solutions.</string>
+    <string name="gsoc">GSoC is a program, designed to encourage students in open source software development.</string>
+    <string name="meta_crs">An initiative helping open source projects communicate between systems.</string>
+    <string name="welcome">OSGeo promotes interaction between users, developers, and community participants</string>
+    <string name="getting_started">If you are new to OSGeo, get ideas to start collaborating with others.</string>
+    <string name="local_chapters">Local Chapters are the place you can connect with other OSGeo members in you country</string>
+    <string name="code_of_conduct">The Code of Conduct governs how OSGeo will behave in any forum or event.</string>
+    <string name="events">Events are where the community gathers to share updates on work and ideas for future collaboration.</string>
+    <string name="news">Read the experiences on developing and using Open Source Geospatial software.</string>
+    <string name="communications">There are many ways to stay in touch with the OSGeo community, check them out.</string>
+    <string name="members">The Members of OSGeo are the heart and soul of the thriving Community</string>
+    <string name="service_providers">Open Source is supported by a broad ecosystem of service providers.</string>
+    <string name="awards">OSGeo and the community presents several awards each year, which honor the community contributions.</string>
 
 </resources>

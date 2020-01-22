@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item
+
+        android:id="@+id/projects"
+        android:title="Projects"
+        />-->
+
+    <item
+        android:id="@+id/resources"
+        android:title="Resources"
+        />
+
+    <item
+        android:id="@+id/about_osgeo"
+        android:title="About OSGeo"
+        />
+
+    <item
+        android:id="@+id/initiatives"
+        android:title="Initiatives"
+        />
+
+    <item
+        android:id="@+id/community"
+        android:title="Community"
+        />
+
+
+</menu>

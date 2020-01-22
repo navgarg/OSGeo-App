@@ -27,7 +27,7 @@ class SplashActivity : AppCompatActivity() {
             }
             override fun onFinish() {
                 //send intent to MainActivity
-                startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+                startActivity(Intent(this@SplashActivity, ProjectsActivity::class.java))
                 //finish activity
                 finish()
             }

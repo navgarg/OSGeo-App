@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        tools:context=".ProjectsActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OSGeo Projects"
+            android:textSize="35sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/background"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gdal"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/gdal"
+                android:text="@string/gdal"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/backLight"/>
+
+            <Button
+                android:id="@+id/deegree"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/deegree"
+                android:text="@string/osgeolive"
+                android:layout_marginStart="15dp"
+                android:layout_alignParentEnd="true"
+                android:textAllCaps="false"
+                android:textColor="@color/backLight"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/geo_tools"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:drawableTop="@drawable/geo_tools"
+                android:background="@drawable/button_style"
+                android:text="@string/geo_tools"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/backLight"/>
+
+            <Button
+                android:id="@+id/qgis"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/qgis"
+                android:text="@string/qgis"
+                android:textAllCaps="false"
+                android:textColor="@color/backLight" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/grass"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="10dp"
+                android:drawableTop="@drawable/grass"
+                android:text="@string/grass"
+                android:textAllCaps="false"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/backLight"/>
+
+            <Button
+                android:id="@+id/istsos"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/istsos"
+                android:text="@string/istsos"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentEnd="true"
+                android:textAllCaps="false"
+                android:textColor="@color/backLight"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/open_layers"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:layout_marginBottom="10dp"
+                android:drawableTop="@drawable/open_layers"
+                android:text="@string/open_layers"
+                android:textAllCaps="false"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/backLight"/>
+
+            <Button
+                android:id="@+id/osgeolive"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/osgeolive"
+                android:text="@string/osgeolive"
+                android:layout_marginStart="15dp"
+                android:layout_alignParentEnd="true"
+                android:textAllCaps="false"
+                android:textColor="@color/backLight"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pgRouting"
+                android:layout_width="185dp"
+                android:layout_height="210dp"
+                android:background="@drawable/button_style"
+                android:drawableTop="@drawable/pgrouting"
+                android:text="@string/pgrouting"
+                android:textAllCaps="false"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/backLight"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/projects"
+            android:textAllCaps="false"
+            android:textColor="@color/backLight"
+            android:background="@drawable/button_style"
+            android:layout_width="185dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="Click to get to know about more OSGeo projects"/>
+    </LinearLayout>
+
+</ScrollView>
+

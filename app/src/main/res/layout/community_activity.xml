@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        tools:context=".ProjectsActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OSGeo Community"
+            android:textSize="35sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/background"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/welcome"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:text="Welcome"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/welcome"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/getting_started"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Getting Started"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/getting_started"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/local_chapters"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Local Chapters"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/local_chapters"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/code_of_conduct"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Code of Conduct"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/code_of_conduct"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/events"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Events"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/events"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/news"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Community News"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/news"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/communications"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Communications"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/communications"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/members"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Members"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/members"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/service_providers"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Service Providers"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/service_providers"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/awards"
+                android:layout_weight="1"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Awards"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/backLight"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/background"
+                    android:text="@string/awards"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/backLight"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="Click to know more"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
